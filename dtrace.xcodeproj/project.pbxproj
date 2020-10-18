@@ -12338,7 +12338,7 @@
 			baseConfigurationReference = 1849280F2200E0BD0086F741 /* usdtheadergen.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(inherited) $(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks";
 			};
 			name = Debug;
@@ -12348,7 +12348,7 @@
 			baseConfigurationReference = 1849280F2200E0BD0086F741 /* usdtheadergen.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(inherited) $(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks";
 			};
 			name = Release;
@@ -12916,7 +12916,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 18A7545A202A76AF0051B921 /* dtrace.xcconfig */;
 			buildSettings = {
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(inherited) $(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks";
 			};
 			name = Debug;
@@ -12925,7 +12925,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 18A7545A202A76AF0051B921 /* dtrace.xcconfig */;
 			buildSettings = {
-				SDKROOT = macosx.internal;
+				SDKROOT = macosx;
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(inherited) $(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks";
 			};
 			name = Release;
